@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/gridviewdata"
+        android:layout_width="190dp"
+        android:layout_height="180dp">
+
+        <TextView
+            android:id="@+id/textview5"
+            android:layout_width="44dp"
+            android:layout_height="17dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="139dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="23dp"
+            android:text=""
+            android:textColor="#FF0000"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/textview6"
+            android:layout_width="96dp"
+            android:layout_height="23dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="153dp"
+            android:layout_marginEnd="62dp"
+            android:layout_marginBottom="4dp"
+            android:text=""
+            android:textColor="#FF0000"
+            android:textSize="9dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="125dp"
+            android:layout_height="113dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginBottom="57dp"
+            tools:srcCompat="@drawable/i1" />
+
+        <TextView
+            android:id="@+id/textview7"
+            android:layout_width="94dp"
+            android:layout_height="24dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="125dp"
+            android:layout_marginEnd="64dp"
+            android:layout_marginBottom="31dp"
+            android:text=""
+            android:textColor="#FF0000"
+            android:textSize="9dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

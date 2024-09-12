@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+            <item android:id="@+id/i1"
+                android:title="OOP"
+                android:icon="@mipmap/ic_launcher"
+                app:showAsAction="always" >
+
+                <menu>
+                    <item android:id="@+id/a"
+                        android:title="C++"
+                        android:icon="@mipmap/ic_launcher"
+                        app:showAsAction="always"/>
+                    <item android:id="@+id/b"
+                        android:title="JAVA"
+                        android:icon="@mipmap/ic_launcher"
+                        app:showAsAction="always"/>
+                </menu>
+            </item>
+    <item
+        android:id="@+id/i2"
+        android:title="Python"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="always">
+    </item>
+
+</menu>
